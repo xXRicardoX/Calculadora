@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>        
+        <div id ='calculadora'>
+            <div id="operadores">
+                <p>Valor 1: <input type="number" name="txnumber1" id="txnumber1"></p>
+                <p>Valor 2: <input type="number" name="txnumber2" id="txnumber2"></p>
+                <button type="button" value="somar" onclick="somar()">+</button>
+                <button type="button" value="menos" onclick="menos()">-</button>
+                <button type="button" value="mult" onclick="mult()">x</button>
+                <button type="button" value="div" onclick="div()">/</button>
+                <button type="button" value="Somar" onclick="limpar()">C</button>
+                </div>
+               
+
+            <div id='res'>
+                <p>Resultado</p>
+                <!-- <select name="resultado" id="resultado"></select size="1"> -->
+           </div>
+                
+    </section>
+    <footer>
+        <p>&copy; Ricardo F. de Carvalho</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
